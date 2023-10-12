@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "f177967b-436d-4517-b7bb-7d72722cc45d",
+		"name": "micro_bussinesowner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10392878"
+	},
+	"item": [
+		{
+			"name": "localhost:8087/bussinesowner/findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/bussinesowner/findAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"bussinesowner",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8087/bussinesowner/findById/342423423423",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/bussinesowner/findById/342423423423",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"bussinesowner",
+						"findById",
+						"342423423423"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8087/bussinesowner/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idAccount\":\"85425\",\r\n    \"holderName\":\"Richard\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8087/bussinesowner/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"bussinesowner",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8087/bussinesowner/update/6515afdf9c8575333a2963fd",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idAccount\":\"85425\",\r\n    \"holderName\":\"Kiara\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8087/bussinesowner/update/6515de6eccb9dd2c028abb7d",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"bussinesowner",
+						"update",
+						"6515de6eccb9dd2c028abb7d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8087/bussinesowner/delete/6515de6eccb9dd2c028abb7d",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/bussinesowner/delete/6515de6eccb9dd2c028abb7d",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"bussinesowner",
+						"delete",
+						"6515de6eccb9dd2c028abb7d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
